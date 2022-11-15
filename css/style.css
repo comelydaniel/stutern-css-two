@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list {
+    padding: 10px 0;
+    font-size: 18px;
+    list-style-position: inside;
+}
+
+#likes {
+    border-right: 5px dashed purple;
+    width: 40%;
+}
+
+#dislikes{
+    padding-left: 30px;
+    width: 40%;
+}
+
+h2 {
+    color: purple;
+    border-bottom: 2px solid purple;
+    width: 25%;
+}
+
+.border {
+    width: 15%;
+}
